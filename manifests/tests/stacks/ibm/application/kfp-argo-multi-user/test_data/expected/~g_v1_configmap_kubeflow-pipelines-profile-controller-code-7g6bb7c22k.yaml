@@ -98,7 +98,7 @@ data:
                             "spec": {
                                 "containers": [{
                                     "image":
-                                    "gcr.io/ml-pipeline/visualization-server:" +
+                                    "registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-visualization-server:" +
                                     kfp_version,
                                     "imagePullPolicy":
                                     "IfNotPresent",
@@ -202,7 +202,7 @@ data:
                                     "name":
                                     "ml-pipeline-ui-artifact",
                                     "image":
-                                    "gcr.io/ml-pipeline/frontend:" + kfp_version,
+                                    "registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-frontend:" + kfp_version,
                                     "imagePullPolicy":
                                     "IfNotPresent",
                                     "ports": [{

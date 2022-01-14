@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: gcr.io/ml-pipeline/cache-server
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-cache-server
     newTag: 1.7.0

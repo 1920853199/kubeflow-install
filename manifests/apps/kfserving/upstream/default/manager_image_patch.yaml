@@ -8,5 +8,5 @@ spec:
     spec:
       containers:
       # Change the value of image field below to your controller image URL
-      - image: kfserving/kfserving-controller:v0.6.1
+      - image: registry.cn-shenzhen.aliyuncs.com/leechen/docker.io-kfserving-kfserving-controller:v0.6.1
         name: manager

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: main
-        image: gcr.io/ml-pipeline/cache-deployer:dummy
+        image: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-cache-deployer:dummy
         imagePullPolicy: Always
         env:
         - name: NAMESPACE_TO_WATCH

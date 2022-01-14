@@ -38,11 +38,11 @@ spec:
         - name: METRICS_DOMAIN
           value: knative.dev/eventing
         - name: BROKER_INGRESS_IMAGE
-          value: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress@sha256:cfdaf7a48a22e3bab15e6b15e7ee387eb6406e00e9e4942e58b4a7bc8c2df3cf
+          value: registry.cn-shenzhen.aliyuncs.com/leechen/dev-eventing-cmd-broker-ingress@sha256:cfdaf7a48a22e3bab15e6b15e7ee387eb6406e00e9e4942e58b4a7bc8c2df3cf
         - name: BROKER_INGRESS_SERVICE_ACCOUNT
           value: eventing-broker-ingress
         - name: BROKER_FILTER_IMAGE
-          value: gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter@sha256:ad578e71aad9c040087dd621fddd73f70ede4d03ae5425c79e8995d06ebb8aca
+          value: registry.cn-shenzhen.aliyuncs.com/leechen/knative.dev-eventing-cmd-broker-filter@sha256:ad578e71aad9c040087dd621fddd73f70ede4d03ae5425c79e8995d06ebb8aca
         - name: BROKER_FILTER_SERVICE_ACCOUNT
           value: eventing-broker-filter
         - name: BROKER_IMAGE_PULL_SECRET_NAME

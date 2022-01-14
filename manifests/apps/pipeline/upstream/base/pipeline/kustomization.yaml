@@ -38,13 +38,13 @@ resources:
 images:
   - name: gcr.io/ml-pipeline/api-server
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/persistenceagent
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-persistenceagent
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/scheduledworkflow
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-scheduledworkflow
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/frontend
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-frontend
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/viewer-crd-controller
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-viewer-crd-controller
     newTag: 1.7.0
-  - name: gcr.io/ml-pipeline/visualization-server
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-visualization-server
     newTag: 1.7.0

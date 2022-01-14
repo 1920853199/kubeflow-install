@@ -39,8 +39,8 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         - name: DISPATCHER_IMAGE
-          value: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher@sha256:8df896444091f1b34185f0fa3da5d41f32e84c43c48df07605c728e0fe49a9a8
-        image: gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller@sha256:9a084ba0ed6a12862adb3ca00de069f0ec1715fe8d4db6c9921fcca335c675bb
+          value: registry.cn-shenzhen.aliyuncs.com/leechen/knative.dev-eventing-cmd-in_memory-channel_dispatcher@sha256:8df896444091f1b34185f0fa3da5d41f32e84c43c48df07605c728e0fe49a9a8
+        image: registry.cn-shenzhen.aliyuncs.com/leechen/knative.dev-eventing-cmd-in_memory-channel_controller@sha256:9a084ba0ed6a12862adb3ca00de069f0ec1715fe8d4db6c9921fcca335c675bb
         name: controller
         ports:
         - containerPort: 9090

@@ -43,7 +43,7 @@ spec:
           value: gcr.io/knative-releases/knative.dev/eventing/cmd/ping/jobrunner@sha256:b47877189b1e0f23c2617875574b16505251ae45ea091969332266621af99af8
         - name: APISERVER_RA_IMAGE
           value: gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:717e08da76235229c5664240351ece8c70767768437c0a6d498210cdcc182f14
-        image: gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:c99f08229c464407e5ba11f942d29b969e0f7dd2e242973d50d480cc45eebf28
+        image: registry.cn-shenzhen.aliyuncs.com/leechen/knative.dev-eventing-cmd-controller@sha256:c99f08229c464407e5ba11f942d29b969e0f7dd2e242973d50d480cc45eebf28
         name: eventing-controller
         ports:
         - containerPort: 9090

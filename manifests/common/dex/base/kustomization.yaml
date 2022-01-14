@@ -10,8 +10,8 @@ resources:
 generatorOptions:
   disableNameSuffixHash: true
 images:
-- name: quay.io/dexidp/dex
-  newName: quay.io/dexidp/dex
+- name: registry.cn-shenzhen.aliyuncs.com/leechen/quay.io-dexidp-dex
+  newName: registry.cn-shenzhen.aliyuncs.com/leechen/quay.io-dexidp-dex
   newTag: v2.24.0
 
 secretGenerator:

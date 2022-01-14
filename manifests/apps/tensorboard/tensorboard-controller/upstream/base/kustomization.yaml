@@ -34,6 +34,6 @@ patches:
     kind: "ClusterRoleBinding"
     group: "rbac.authorization.k8s.io"
 images:
-- name: public.ecr.aws/j1r0q0g6/notebooks/tensorboard-controller
-  newName: public.ecr.aws/j1r0q0g6/notebooks/tensorboard-controller
+- name: registry.cn-shenzhen.aliyuncs.com/leechen/notebooks-tensorboard-controller
+  newName: registry.cn-shenzhen.aliyuncs.com/leechen/notebooks-tensorboard-controller
   newTag: v1.4

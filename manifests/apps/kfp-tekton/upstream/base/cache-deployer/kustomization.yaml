@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-deployer
 images:
-  - name: gcr.io/ml-pipeline/cache-deployer
+  - name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-cache-deployer
     newTag: 1.7.0

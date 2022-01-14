@@ -41,6 +41,6 @@ vars:
 configurations:
 - params.yaml
 images:
-- name: gcr.io/arrikto/kubeflow/oidc-authservice
-  newName: gcr.io/arrikto/kubeflow/oidc-authservice
+- name: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-arrikto-kubeflow-oidc-authservice
+  newName: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-arrikto-kubeflow-oidc-authservice
   newTag: 28c59ef

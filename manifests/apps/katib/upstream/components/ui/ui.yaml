@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: katib-ui
-          image: docker.io/kubeflowkatib/katib-ui
+          image: registry.cn-shenzhen.aliyuncs.com/leechen/docker.io-kubeflowkatib-katib-ui
           command:
             - "./katib-ui"
           args:

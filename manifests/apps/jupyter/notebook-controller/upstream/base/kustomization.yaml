@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../default
 images:
-- name: public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
-  newName: public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
+- name: registry.cn-shenzhen.aliyuncs.com/leechen/notebooks-notebook-controller
+  newName: registry.cn-shenzhen.aliyuncs.com/leechen/notebooks-notebook-controller
   newTag: v1.4

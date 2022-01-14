@@ -26,7 +26,7 @@ spec:
           value: ""
         - name: TTL_SECONDS_AFTER_WORKFLOW_FINISH
           value: "86400"
-        image: gcr.io/ml-pipeline/persistenceagent:1.0.4
+        image: registry.cn-shenzhen.aliyuncs.com/leechen/gcr.io-ml-pipeline-persistenceagent:1.0.4
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-persistenceagent
       serviceAccountName: ml-pipeline-persistenceagent

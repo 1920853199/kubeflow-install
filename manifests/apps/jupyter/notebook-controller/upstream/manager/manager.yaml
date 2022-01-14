@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: manager
-        image: public.ecr.aws/j1r0q0g6/notebooks/notebook-controller
+        image: registry.cn-shenzhen.aliyuncs.com/leechen/notebooks-notebook-controller
         command:
           - /manager
         env:
